@@ -1,6 +1,7 @@
 .header{
     background-color: lightcyan;
     padding: 50px;
+    margin-bottom: 20px;
 }
 .nav{
     background-color: lightcoral;
@@ -28,6 +29,11 @@
 }
 
 
+.main{
+    background-color: blueviolet;
+    padding: 50px;
+    margin-bottom: 20px;
+}
 .section{
     background-color: lightgoldenrodyellow;
     padding: 10px;

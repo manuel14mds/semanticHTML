@@ -4,8 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Role HTML</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    
+    <!-- Header -->
+    <div class="header" role="banner">
+        <div class="nav" role="navigation">
+            <div class="ul" role="list">
+                <div class="li" role="listitem"><a href="../index.html" class="a">Home</a></div>
+                <div class="li" role="listitem"><a href="#" class="a">Role</a></div>
+                <div class="li" role="listitem"><a href="./semantic.html" class="a">Semantic</a></div>
+            </div>
+        </div>
+        <div class="h1" role="heading" aria-level="1">Semantic HTML</div>
+    </div>
+
+
+
+    <!-- Main -->
+    <div class="main" role="main">
+        <div class="section" role="article">
+            <div class="h2"role="heading" aria-level="2"> Paises</div>
+
+            <div class="h3" role="heading" aria-level="3">America</div>
+            <div class="h4" role="heading" aria-level="4">Mexico</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+            <div class="h4" role="heading" aria-level="4">Colombia</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+            <div class="h4" role="heading" aria-level="4">Argentina</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+            <div class="h4" role="heading" aria-level="4">Chile</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+
+            <div class="h3" role="heading" aria-level="3">Europa</div>
+            <div class="h4" role="heading" aria-level="4">Alemania</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+            <div class="h4" role="heading" aria-level="4">Polonia</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+            <div class="h4" role="heading" aria-level="4">Suiza</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+            <div class="h4" role="heading" aria-level="4">Portugal</div>
+            <div class="p" role="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint modi, nostrum laboriosam quaerat tempora eos consequatur tenetur sunt doloribus dolores recusandae, rerum debitis dolorum voluptatibus magni earum dolorem nam.</div>
+
+        </div>
+
+        <div class="section" role="region">
+            <div class="h2" role="heading" aria-level="2">Formulario</div>
+            <div class="form" role="form">
+                <div for="fnombre" role="sectionhead">Nombre</div>
+                <input type="text" id="fnombre" placeholder="digite nombre">
+
+                <div for="fedad" role="label">Edad</div>
+                <input type="text" id="fedad" placeholder="digite edad">
+
+                <div for="femail" role="label">Email</div>
+                <input type="text" id="femail" placeholder="digite email">
+
+                <input type="button" value="send" role="button">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer" role="contentinfo">
+        <div class="description" role="paragraph">Esta pagina está hecha para explicar el funcionamiento y la importancia de crear landing pages con HTML semantico</div>
+        <div class="description" role="paragraph">Inkua</div>
+    </div>
 </body>
 </html>
